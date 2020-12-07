@@ -1,0 +1,39 @@
+* {
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.todo-description {
+  text-align: center;
+  width: 100%;
+  margin: 2rem 1rem 1rem 1rem;
+}
+.todo-description h1 {
+  font-size: 2rem;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+.to-do-input {
+  padding: 1rem;
+  height: 60px;
+  width: 300px;
+  background-color: #333;
+  color: white;
+}
+.submit-btn {
+  cursor: pointer;
+  height: 60px;
+  width: 80px;
+  background-color: #333;
+  color: white;
+}
